@@ -1,9 +1,11 @@
 ![header](https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&customColorList=0,2,2,5,4,6,8,10,12,14,16,20,30&text=Targeted%20Ports&fontSize=75&animation=twinkling)
-# 🚨 Commonly Targeted Ports by Hackers 🚨
+# 🚨 40+ Commonly Targeted Ports by Hackers 🚨
 
 Each port is associated with widely used services and protocols, making them prime candidates for exploitation attempts. Understanding these ports can help you enhance your network security and protect against potential vulnerabilities.
 
 ---
+<!-- ![Visitor Count](https://komarev.com/ghpvc/?username=sadbattery&color=blue) -->
+
 
 ## 🔒 List of Commonly Targeted Ports
 
@@ -49,6 +51,27 @@ Each port is associated with widely used services and protocols, making them pri
 | **9200**    | Elasticsearch             | Elasticsearch Search and Analytics Engine                  |
 | **10000**   | Webmin                    | Webmin Web-Based Interface for System Administration       |
 | **27017**   | MongoDB                   | MongoDB NoSQL Database                                     |
+| **3074**    | Xbox Live                 | Xbox Live Gaming                                           |
+| **5060**    | SIP                       | Session Initiation Protocol                                |
+| **135**     | RPC                       | Remote Procedure Call                                      |
+| **139**     | NetBIOS                   | Network Basic Input/Output System                          |
+| **1433**    | MSSQL                     | Microsoft SQL Server                                       |
+| **1521**    | Oracle                    | Oracle Database Server                                     |
+| **1723**    | PPTP                      | Point-to-Point Tunneling Protocol                          |
+| **1900**    | UPnP                      | Universal Plug and Play                                    |
+| **2302**    | DayZ                      | DayZ Game Server                                           |
+| **4000**    | Elasticsearch             | Elasticsearch Search and Analytics Engine                  |
+| **4444**    | Metasploit                | Metasploit Framework                                       |
+| **5000**    | Python Flask              | Python Flask Development Server                            |
+| **5555**    | Android Debug Bridge      | Android Debug Bridge (ADB)                                 |
+| **6667**    | IRC                       | Internet Relay Chat                                        |
+| **6697**    | IRC SSL                   | Secure Internet Relay Chat                                 |
+| **8000**    | HTTP Alt                  | Alternate HTTP Port                                        |
+| **8081**    | HTTP Proxy                | Alternative HTTP Proxy                                     |
+| **9100**    | Printer                   | Network Printer                                            |
+| **9090**    | Web Debugging             | Web Debugging Interface                                    |
+| **5985/5986** | WinRM                   | Windows Remote Management                                  |
+| **28017**   | MongoDB HTTP Interface    | MongoDB HTTP Interface                                     |
 
 ---
 
