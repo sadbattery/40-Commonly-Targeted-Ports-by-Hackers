@@ -1,0 +1,26 @@
+name: Visitor Badge
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository content
+        uses: actions/checkout@v2
+
+      - name: Fetch visitor count
+        run: |
+          visitor_count=$(curl -s https://api.countapi.xyz/hit/sadbattery.40-Commonly-Targeted-Ports-by-Hackers/visits | jq .value)
+          echo "visitor_count=$visitor_count" >> $GITHUB_ENV
+
+      - name: Generate visitor badge
+        run: |
+          echo "![](https://img.shields.io/badge/Visitor_Count-$visitor_count-blue)" > visitor_count.md
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add visitor_count.md
+          git commit -m 'Update visitor count badge'
+          git push
