@@ -1,7 +1,7 @@
 ![header](https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&customColorList=0,2,2,5,4,6,8,10,12,14,16,20,30&text=Targeted%20Ports&fontSize=75&animation=twinkling)
 # 🚨 Commonly Targeted Ports by Hackers 🚨
 
-Welcome to the repository containing a comprehensive list of **40 ports** that are frequently targeted by hackers. Each port is associated with widely used services and protocols, making them prime candidates for exploitation attempts. Understanding these ports can help you enhance your network security and protect against potential vulnerabilities.
+Each port is associated with widely used services and protocols, making them prime candidates for exploitation attempts. Understanding these ports can help you enhance your network security and protect against potential vulnerabilities.
 
 ---
 
